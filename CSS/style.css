@@ -564,28 +564,31 @@ select:focus, input:focus, button:focus{
     margin-bottom: px;
     width: 1000px;
   }
-/* ruleta
 
-*{
+
+  /* ruleta */
+
+  *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     outline: none;
 }
-.ruleta{
+.container-ruleta{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 550px;
     overflow: hidden;
     background-size: cover;
     background-position: center;
 
+
   }
 .mainbox{
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     margin-top: 50px;
 }
 .mainbox:after{
@@ -593,7 +596,7 @@ select:focus, input:focus, button:focus{
     content: "";
     width: 100%;
     height: 100%;
-    background:url(img/6708193.png) no-repeat;
+    background:url(.assets/arrow.png) no-repeat;
     background-size: 5%;
     left: 5%;
     top: 48%;
@@ -608,9 +611,10 @@ select:focus, input:focus, button:focus{
    overflow: hidden;
    transition: all ease-in-out 5s;
    transform: rotate(90deg);
+   animation: spin 5s infinite;
 
 }
-span{width: 100%;
+.container-ruleta span{width: 100%;
     height: 100%;
     display: inline-block;
     position: absolute;
@@ -699,7 +703,7 @@ span{width: 100%;
     position: absolute;
     top: 35%;
     right: 54%;
-    transform: rotate(-110deg);
+    transform: rotate(399deg);
     text-align: center;
 }
 .box2 .span3 h6{
@@ -757,7 +761,6 @@ audio{
 @keyframes animateArrow{
     50%{ 
         right: -50px;}
-
-}*/
+    }
 
 
