@@ -245,23 +245,20 @@ overflow: hidden;
         gap: 20px;
         
         
-        padding: 100px;
+        
     }
 
-    @media (max-width:600px) {
-        .item{
-            width: 100px;
-        }
-       
-    }
     
     
     .item{
     
     border-radius: 10px;
+    align-items: center;
     
     
     }
+
+   
     
     .item:hover{
     
@@ -400,6 +397,7 @@ overflow: hidden;
     height: 70vh;
     margin: 0;
     padding: 20px;
+    margin-top: 100px;
 }
 
 
