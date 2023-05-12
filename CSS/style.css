@@ -253,10 +253,25 @@ overflow: hidden;
     .item{
     
     border-radius: 10px;
-    align-items: center;
+
     
     
     }
+
+    @media (max-width:600px) {
+        .item{
+            width: 100px;
+        }
+       
+    }
+
+    @media (max-width:600px) {
+        .btn-add-cart{
+            width: 100px;
+        }
+       
+    }
+
 
    
     
