@@ -250,7 +250,7 @@ overflow: hidden;
 
     @media (max-width:600px) {
         .item{
-            width: 111px;
+            width: 100px;
         }
        
     }
